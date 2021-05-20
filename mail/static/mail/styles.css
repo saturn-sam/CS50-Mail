@@ -1,0 +1,38 @@
+textarea {
+  min-height: 400px;
+}
+
+#emails-view .email-list-row:hover {
+  background-color: #dbdada;
+  cursor: pointer;
+}
+#emails-view #table-heading {
+  border-top: 1px solid #000000;
+  background-color: #9c9c9c;
+}
+#emails-view #table-heading p {
+  font-weight: inherit;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+#emails-view .email-row {
+  border: 1px solid #000000;
+  border-top: 0;
+  border-radius: 1px;
+  cursor: pointer;
+}
+#emails-view .email-row p {
+  color: #020202;
+  margin-top: 14px;
+  margin-bottom: 12px;
+}
+#emails-view .read {
+  background-color: #c7c6c6;
+}
+#emails-view .unread {
+  background-color: #ffffff;
+}
+#emails-view .unread p {
+  font-weight: bolder;
+}/*# sourceMappingURL=styles.css.map */

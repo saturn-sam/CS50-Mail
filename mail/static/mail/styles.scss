@@ -1,0 +1,49 @@
+textarea {
+    min-height: 400px;
+}
+#emails-view {
+    .email-list-row:hover {
+      background-color: #dbdada;
+      cursor: pointer;
+      // pointer-events: none;
+    }
+  
+    #table-heading {
+      border-top: 1px solid #000000;
+      background-color: #9c9c9c;
+      
+  
+      p {
+        font-weight: inherit;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: #ffffff;
+      }
+    //   
+    }
+  
+    .email-row {
+      border: 1px solid #000000;
+      border-top: 0;
+      border-radius: 1px;
+      p {
+        color: #020202;
+        margin-top: 14px;
+        margin-bottom: 12px;
+      }
+      cursor: pointer;
+    }
+  
+  
+    .read {
+      background-color: #c7c6c6;
+    }
+  
+    .unread {
+      background-color: #ffffff;
+      p {
+        font-weight: bolder;
+      }
+    }
+  
+  }
